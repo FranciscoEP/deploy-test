@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
   }
 });
 
-router.get('secreta', (req, res) => {
+router.get('/secreta', (req, res) => {
   res.send("Ruta secreta")
 })
 
